@@ -21,8 +21,7 @@ let candle = (n) => {
 	}
 	if (n == 5) {
 		document.querySelector('.candle3 .flame').style.display = 'none';
-		document.getElementById('HUYN').className +=
-			'rainbow rainbow_text_animated';
+		document.getElementById('HUYN').className = 'rainbow rainbow_text_animated';
 		document.getElementById('HUYN').textContent = 'HAPPY BIRTHDAY!!!';
 	}
 };
