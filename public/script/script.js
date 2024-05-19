@@ -49,7 +49,7 @@ navigator.mediaDevices
 			const arraySum = array.reduce((a, value) => a + value, 0);
 			const average = arraySum / array.length;
 
-			if (average >= 40) {
+			if (average >= 50) {
 				console.log(Math.round(average));
 				var c = 0;
 				setInterval(() => {
